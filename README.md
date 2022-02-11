@@ -3,7 +3,7 @@
 
 MCU is a site that allows you to browse and update a catalog containing **superheroes**, **movies** and **comparisons**.
 
-# Discamer
+## Disclamer
 
 This one is a school project. The project is based on the delivery requirements.
 
