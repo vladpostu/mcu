@@ -14,7 +14,7 @@ Use a live server like [xampp](https://www.apachefriends.org/it/index.html)
 ## Operation
 
 If you use ***xampp*** you need to start the server either using the GUI or via command line with 
-``bash
+```bash
 xampp start
 ```
 
