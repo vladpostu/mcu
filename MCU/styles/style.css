@@ -1,0 +1,217 @@
+
+
+/* Marvel color palette */
+:root {
+    --red: #FF030C;
+    --black: #000000;
+    --brown: #504a4a;
+    --blue: #518cca;
+    --orange: #f78f3f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: snow;
+    overflow-x: hidden;
+}
+
+#main_header {
+    position: relative;
+}
+
+.nav-buttons > a:hover {
+    color: inherit !important;
+    font-style: normal;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav-buttons > a {
+    font-style: normal !important;
+}
+
+#logo {
+    z-index: 2;
+    position: absolute;
+    width: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-navbar {
+    position: absolute;
+    width: 100vw;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    top: 0;
+}
+
+.header-navbar > .navbar {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    color: snow;
+}
+
+.navbar > .nav-title {
+    width: 35px;  
+    height: 35px;  
+}
+
+.nav-buttons > a {
+    text-decoration: none;
+    color: snow;
+    font-weight: 700;
+    padding: 0.3rem 1rem;
+}
+
+.nav-buttons > a:hover {
+    color: inherit;
+}
+
+#registration {
+    background: var(--red) !important;
+}
+
+#incipit {
+    margin-top: 5rem;
+    font-style: italic;
+    width: 100vw;
+}
+
+#incipit > .nav-buttons > .login {
+    color: #333 !important;
+}
+
+#incipit > h3 {
+    font-weight: 700;
+}
+
+#incipit > h1 {
+    font-weight: 900;
+}
+
+#incipit > p {
+    font-style: normal;
+}
+
+a:hover {
+    color: inherit;
+}
+
+#data {
+    background: var(--brown);
+    min-height: 100px;
+    color: snow !important;
+}
+
+
+.resized {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.main-button {
+    background: var(--red) !important;
+    color: snow !important;
+}
+
+.form {
+    width: 500px;
+    max-height: 90vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 7rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: white !important;
+}
+
+.background-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn-danger {
+    background: var(--red) !important;
+}
+
+li > a {
+    font-style: normal !important;
+}
+
+.back-home {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-decoration: none;
+}
+
+.back-home > img {
+    transform: rotate(180deg);
+}
+
+.back-home > span {
+    text-decoration: none;
+    color: #000;
+    padding-left: 0.3rem;
+}
+
+.alert {
+    margin-bottom: 0 !important;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+    flex-direction: row;
+}
+
+.alert > span {
+    padding-left: 1rem;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f9f9f9 !important;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+#footer {
+    min-height: 100px;
+    width: 100vw;
+    background: #000;
+}
