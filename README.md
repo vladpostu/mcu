@@ -1,37 +1,41 @@
 
 # Marvel Cinematic Universe - MCU
 
-MCU è un sito che permette di consultare ed aggiornare un catalogo contenente i **supereroi**, **film** e **comparse**.
+MCU is a site that allows you to browse and update a catalog containing **superheroes**, **movies** and **comparisons**.
 
-## Installazione
+# Discamer
 
-Usare un live server come [xampp](https://www.apachefriends.org/it/index.html)
+This one is a school project. The project is based on the delivery requirements.
 
-## Funzionamento
+## Installation
 
-Se usato ***xampp*** è neccessario far partire il server o usando l'interfaccia grafica o attraverso riga di comando con 
-```bash
+Use a live server like [xampp](https://www.apachefriends.org/it/index.html)
+
+## Operation
+
+If you use ***xampp*** you need to start the server either using the GUI or via command line with 
+``bash
 xampp start
 ```
 
-La web app permette di inserire il contenuto all'interno del catalogo dopo e solo essersi loggati o registrati.
+The web app allows you to insert the content into the catalog after and only after logging in or registering.
 
-Per visualizzare il contenuto scorrere fino alla sezione **Catalogo** e usare l'apposito pulsante. 
+To view the content scroll to the **Catalog** section and use the appropriate button. 
 
-E' inoltre possibile filtrare il catalogo attraverso una ricerca nella searchbar sottostante.
+It is also possible to filter the catalog through a search in the searchbar below.
 
 
-## Linguaggi usati
+## Used languages
 
 - HTML
-- CSS
+- CSS LANGUAGE
 - Javascript 
 - PHP
 - MySQL
 
-## Componenti aggiuntivi 
+## Additional Components 
 
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/): CSS framework
-- [Google Fonts](https://fonts.google.com/): Typefonts offerti da Google
-- [Font Awesome](https://fontawesome.com/): Libreria di icone grafiche
-- Ajax: strumento Javascript per l'aggiornamento dinamico dei contenuti
+- [Google Fonts](https://fonts.google.com/): Typefonts offered by Google
+- [Font Awesome](https://fontawesome.com/): Graphics icon library
+- Ajax: Javascript tool for dynamic updating of contents
